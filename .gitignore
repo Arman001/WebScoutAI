@@ -1,0 +1,54 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Ignore environment-related files
+.env
+*.venv/
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temp files
+*.log
+logs/
+debug.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore Streamlit cache files
+.streamlit/
+
+# Ignore model artifacts (if saving models locally)
+models/
+*.h5
+*.pkl
+*.onnx
+
+# Ignore data files (optional, if storing datasets)
+# data/
+# *.csv
+# *.json
+# *.xlsx
+# *.parquet
+
+# Ignore virtual environments
+*.env/
+.venv/
+venv/
+env/
